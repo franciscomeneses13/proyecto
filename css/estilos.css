@@ -73,3 +73,45 @@ section {
 #section4 h2 {
     text-align: initial;
 }
+
+#section3 ul {
+    list-style: none;
+}
+
+#section3 ul li {
+    position: relative;
+    display: inline-block;
+}
+
+#section3 ul li:hover p {
+    display: block;
+    background: #ffffff59;
+}
+
+
+
+#section3 ul li p {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+    display: none;
+}
+
+#section3 ul li .banda {
+    top: 10px;
+}
+
+#section3 ul li .disco {
+    top: 25px;
+}
+
+#section3 ul li .anio {
+    top: 40px;
+}
+
+#section3 ul li .edicion {
+    top: 55px;
+}
