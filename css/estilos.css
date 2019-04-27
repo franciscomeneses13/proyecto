@@ -19,10 +19,11 @@ body nav {
     border-color: rgb(36, 34, 34);
     border-style: inset;
     padding: none;
+    z-index: 1;
       
 }
 
-body nav ul {
+body .sticky ul {
     text-align: center;
     display: flex;
     justify-content: space-around;
